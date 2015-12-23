@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Latest Videos"
+        android:id="@+id/row_1"
+        ></item>
+
+    <item android:title="Most Discussed"
+        android:id="@+id/row_2">@color/#A61C1E</item>
+
+
+    <item android:title="Most Popular"
+        android:id="@+id/row_3"
+        ></item>
+
+    <item android:title="Title"
+        android:id="@+id/row_4">@color/#A61C1E</item>
+
+
+</menu>

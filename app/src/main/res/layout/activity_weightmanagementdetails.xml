@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spinno.com.munchoba.fragmentsformainscreen.Barcodescanneractivity"
+    android:orientation="vertical"
+    android:background="#bbbbbb">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Titles Log"
+        android:id="@+id/heading"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/signinbg"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:gravity="left|center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/textView43"
+            android:gravity="center"
+            android:textColor="#a61c1e"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:id="@+id/subtitle"
+            android:layout_weight="1"
+            android:textColor="#a61c1e"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvdet"
+            android:divider="#a61c1e"
+            android:dividerHeight="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#bbbbbb" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Public"
+        android:id="@+id/row_1"
+        ></item>
+
+    <item android:title="Site Members"
+        android:id="@+id/row_2">@color/#A61C1E</item>
+
+
+    <item android:title="Only Me"
+        android:id="@+id/row_3"
+        ></item>
+
+
+</menu>

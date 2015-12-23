@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="#bbbbbb"
+    android:gravity="center">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="My Fitness Details"
+                android:id="@+id/textView26"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#a61c1e"
+                android:textSize="20dp" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginRight="10dp"
+    android:background="#bbbbbb"
+    android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Current Height "
+                        android:id="@+id/height"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/height22"
+                        android:layout_weight="2"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginRight="10dp"
+                        android:text="*height"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Weight "
+                        android:id="@+id/weight"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/weight2"
+                        android:layout_weight="2"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginRight="10dp"
+                        android:text="*weight"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Body Fat Percentage %"
+                        android:id="@+id/bodyfat2"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bodyfat"
+                        android:layout_weight="2"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginRight="10dp"
+                        android:text="*body fat"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BMI"
+                        android:id="@+id/bmi"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/BMi"
+                        android:layout_weight="2"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginRight="10dp"
+                        android:text="*bmi"
+                        android:textColor="#000" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="10dp"
+                android:background="#a61c1e"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Wearable Technology"
+                        android:id="@+id/wear"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/wearable"
+                        android:layout_weight="2"
+                        android:gravity="left|center"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="*wearable"
+                        android:textColor="#000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#a61c1e"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="My Workout Interests"
+                        android:id="@+id/work"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/intr"
+                        android:layout_weight="2"
+                        android:gravity="left|center"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="*interests"
+                        android:textColor="#000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#a61c1e"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Activity Level"
+                        android:id="@+id/act"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lvl"
+                        android:layout_weight="2"
+                        android:gravity="left|center"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="*activity level"
+                        android:textColor="#000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#a61c1e"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dietary Preference "
+                        android:id="@+id/predd"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:textColor="#c1000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/diet"
+                        android:layout_weight="2"
+                        android:gravity="left|center"
+                        android:textSize="15dp"
+                        android:background="#ffffff"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="*dietary preference"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

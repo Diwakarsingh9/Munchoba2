@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Munchoba2.iml" filepath="$PROJECT_DIR$/Munchoba2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" filepath="$PROJECT_DIR$/PagerSlidingtabStrplibrary/PagerSlidingtabStrplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularimageview/circularimageview.iml" filepath="$PROJECT_DIR$/circularimageview/circularimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menudrawer/menudrawer.iml" filepath="$PROJECT_DIR$/menudrawer/menudrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menudrawer-samples/menudrawer-samples.iml" filepath="$PROJECT_DIR$/menudrawer-samples/menudrawer-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing-android-embedded/zxing-android-embedded.iml" filepath="$PROJECT_DIR$/zxing-android-embedded/zxing-android-embedded.iml" />
+    </modules>
+  </component>
+</project>

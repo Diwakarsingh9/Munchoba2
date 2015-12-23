@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+
+    android:background="#F7F4EE">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/Status"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/statusview"
+            android:background="#a61c1e"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/status"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/status"
+            android:focusableInTouchMode="true" />
+
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:background="#a61c1e"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/food"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/foodview"
+            android:background="#a61c1e"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView1111"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/food" />
+
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:background="#a61c1e"/>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@+id/exrcise"
+    android:gravity="center"
+        android:layout_marginBottom="1dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/exerciseview"
+            android:background="#a61c1e"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView11"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/exercise" />
+
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:background="#a61c1e"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/weight"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_marginBottom="1dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/weightview"
+            android:background="#a61c1e"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView22"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/weight" />
+
+        </LinearLayout>
+
+</LinearLayout>

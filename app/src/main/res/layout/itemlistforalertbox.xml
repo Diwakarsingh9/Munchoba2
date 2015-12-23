@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5d5d5d">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="2dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="wrap_content">
+
+            <com.pkmmte.view.CircularImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/frgt"
+                android:id="@+id/imageView21" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title of notifiactions"
+                android:id="@+id/titlenotifications"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* time ago"
+                android:id="@+id/gender"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

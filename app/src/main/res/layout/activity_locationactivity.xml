@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="#bbbbbb">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a61c1e">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Places"
+                android:id="@+id/textView35"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left|center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="DONE"
+                android:id="@+id/done"
+                android:gravity="center|right"
+                android:layout_marginRight="10dp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:gravity="left|center">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/searchlens"
+                android:layout_weight="1" />
+
+            <spinno.com.munchoba.CustomAutoCompleteTextView
+                android:id="@+id/atv_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textColorHint="#ff6a6a6a"
+                android:hint="Search Places"
+                android:textSize="18dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@drawable/cursorcolor"
+                android:layout_weight="1"
+                android:background="@null"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:id="@+id/ewre"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                android:id="@+id/textView40"
+                android:gravity="left|center"
+                android:textSize="10dp"
+                android:textColor="#ff707070"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lvtag"
+                android:background="#ff797979" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

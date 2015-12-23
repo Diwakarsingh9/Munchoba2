@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:alpha="1"
+
+    android:background="#82090909"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/background"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Files"
+                    android:id="@+id/textView31"
+                    android:textColor="#000"
+                    android:layout_gravity="left|center"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/cancel"
+                    android:background="@drawable/close"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spforselectingalbum" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgtoupload"
+                android:background="@drawable/border_image"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                android:cropToPadding="true"
+                android:longClickable="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Upload"
+                android:id="@+id/upload"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/signinbg"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

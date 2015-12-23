@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:alpha="1"
+    android:background="#82090909">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/background"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Video"
+                    android:id="@+id/textView31"
+                    android:textColor="#000"
+                    android:layout_gravity="left|center"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/cancel"
+                    android:background="@drawable/close"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Link Video"
+                            android:id="@+id/textView442"
+                            android:textColor="#ff505050"
+                            android:textSize="15dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Link Video"
+                            android:id="@+id/textView44"
+                            android:textColor="#000"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#000"
+                        android:layout_margin="5dp" />
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Upload video"
+                        android:id="@+id/textView478"
+                        android:textColor="#ff505050"
+                        android:textSize="15dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Upload video"
+                            android:id="@+id/textView46"
+                            android:textColor="#000"
+                            android:textSize="15dp" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                android:id="@+id/linkll">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fields marked with an asterisk (*) are required."
+                    android:id="@+id/textView301"
+                    android:textSize="10dp"
+                    android:textColor="#ce010101"
+                    android:layout_gravity="center|right"
+                    android:layout_marginBottom="5dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTexttitle"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:textColor="#000"
+                    android:hint="Title"
+                    android:layout_marginBottom="2dp"
+                    android:textSize="15dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextDescp"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:textColor="#000"
+                    android:hint="Description"
+                    android:layout_marginBottom="2dp"
+                    android:textSize="15dp" />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner62"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText1011"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:textColor="#000"
+                    android:hint="Video URL *"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView3222">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Category *"
+                        android:id="@+id/textView1233"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner6"
+                        android:layout_margin="5dp"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:id="@+id/uploadll">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fields marked with an asterisk (*) are required."
+                    android:id="@+id/textView30"
+                    android:textSize="10dp"
+                    android:textColor="#ce010101"
+                    android:layout_gravity="center|right"
+                    android:layout_marginBottom="5dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText10"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:textColor="#000"
+                    android:hint="Title *"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText101"
+                    android:background="@android:drawable/editbox_background_normal"
+                    android:textColor="#000"
+                    android:hint="Description"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView32"
+                    android:gravity="left|center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Who can see ?"
+                        android:id="@+id/textView33"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#000"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/global"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/fitnessfeed" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:id="@+id/drop"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/downred" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Select Video File"
+                    android:id="@+id/selectvideo"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#000"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Upload"
+                    android:id="@+id/upload"
+                    android:layout_gravity="center"
+                    android:background="@drawable/signinbg"
+                    android:textColor="#ffffff" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pbdialog"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

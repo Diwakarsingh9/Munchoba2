@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spinno.com.munchoba.fragmentsformainscreen.Search">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="#a61c1e"
+        android:gravity="left|center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/searchlenses" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/searchbar"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_weight="1"
+            android:hint="Search Pages"
+            android:textColor="#000"
+            android:textColorHint="#bbbbbb"
+            android:gravity="left|bottom" />
+    </LinearLayout>
+</FrameLayout>

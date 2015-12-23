@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spinno.com.munchoba.fragmentsformainscreen.Mybmigraph"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:id="@+id/layoutgraph"
+
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:padding="5dp">
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/graph"
+            android:layout_below="@+id/section_label"
+            android:paddingRight="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

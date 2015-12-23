@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:fillViewport="true"
+    android:background="#bbbbbb"
+    android:gravity="center">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fields marked with an asterisk (*) are required."
+                android:id="@+id/textView14"
+                android:gravity="center|right"
+                android:textColor="#ff515151"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To *"
+                android:id="@+id/textView38"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Add Recipient"
+                android:id="@+id/torec"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_marginRight="20dp"
+                android:background="#ffd0d0d0"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject *"
+                android:id="@+id/textView36"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textColorHighlight="#000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message *"
+                android:id="@+id/textView37"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText13"
+                android:layout_marginBottom="20dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Send"
+            android:id="@+id/send"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/signinbg"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+</ScrollView>
+

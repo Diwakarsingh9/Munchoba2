@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Forgot Password"
+        android:id="@+id/row_1"
+        ></item>
+
+    <item android:title="Help Center"
+        android:id="@+id/row_2">@color/#A61C1E</item>
+
+    <item android:title="Terms &amp; Policies"
+        android:id="@+id/row_3">@color/#A61C1E</item>
+
+
+</menu>

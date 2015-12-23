@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="#bbbbbb"
+    android:gravity="center">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My Goals :"
+            android:id="@+id/textView26"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#a61c1e"
+            android:textSize="20dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="10dp"
+            android:background="#bbbbbb"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Current Height "
+                    android:id="@+id/height"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#c1000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/height22"
+                    android:layout_weight="2"
+                    android:textSize="15dp"
+                    android:background="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:text="*height"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Weight "
+                    android:id="@+id/weight"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#c1000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weight2"
+                    android:layout_weight="2"
+                    android:textSize="15dp"
+                    android:background="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:text="*weight"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Body Fat Percentage %"
+                    android:id="@+id/bodyfat2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#c1000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bodyfat"
+                    android:layout_weight="2"
+                    android:textSize="15dp"
+                    android:background="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:text="*body fat"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BMI"
+                    android:id="@+id/bmi"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#c1000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/BMi"
+                    android:layout_weight="2"
+                    android:textSize="15dp"
+                    android:background="#ffffff"
+                    android:layout_marginRight="10dp"
+                    android:text="*bmi"
+                    android:textColor="#000" />
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pb"
+            android:background="@drawable/progressbar"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layoutforgoal"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Goal :"
+                    android:id="@+id/goal"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spgoal" />
+            </LinearLayout>
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/pb22"
+                android:background="@drawable/progressbar"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muscle Group :"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/musclegroup"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp" />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:id="@+id/llforcheckbox"
+             android:layout_margin="5dp">
+
+         </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intensity"
+                    android:layout_marginBottom="2dp"
+                    android:id="@+id/intensity"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spintensity" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom|center"
+        android:background="#ffffff">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save &amp; get me the best plans"
+            android:id="@+id/save"
+            android:background="@drawable/signinbg"
+            android:textColor="#ffffff"
+            android:padding="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+</LinearLayout>
+

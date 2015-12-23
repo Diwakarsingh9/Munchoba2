@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:autofit="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#ffdfdfdf"
+
+    >
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/shape1"
+    android:gravity="left|center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Date"
+        android:id="@+id/datedetails2222"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+    <spinno.com.munchoba.Autoresizetextview.AutofitTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="weight,bodyfat,bmi"
+        android:id="@+id/title222222"
+        android:singleLine="true"
+        autofit:minTextSize="8sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left|center"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp" />
+</LinearLayout>
+
+</LinearLayout>

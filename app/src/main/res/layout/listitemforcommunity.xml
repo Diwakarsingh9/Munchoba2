@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5d5d5d">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="2dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="wrap_content">
+
+            <com.pkmmte.view.CircularImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/userdefault"
+                android:id="@+id/imageView21" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person's Name"
+                android:id="@+id/personname"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:id="@+id/gender"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:textSize="12dp"
+                    android:text="Age :"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*age"
+                    android:id="@+id/age"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_in_list">
+
+            <CheckBox
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:id="@+id/checkBox17"
+                android:button="@drawable/cb_community"
+                android:layout_gravity="right|center"
+
+                />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

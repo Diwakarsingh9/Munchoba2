@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="spinno.com.munchoba" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+nt-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".Splashactivity"
+            android:label="@string/title_activity_splashactivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Loggedin"
+            android:label="@string/title_activity_loggedin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Forgotpassword"
+            android:label="@string/title_activity_forgotpassword"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Cropimagedialog"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+        <activity
+            android:name=".fragmentsformainscreen.Editprofile"
+            android:label="@string/title_activity_editprofile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Mygoalsactivity"
+            android:label="@string/title_activity_mygoalsactivity"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Fitnessdetailsactivity"
+            android:label="@string/title_activity_fitnessdetailsactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Photoactivity"
+            android:label="@string/title_activity_photoactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Videosactivity"
+            android:label="@string/title_activity_videosactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+            >
+        </activity>
+        <activity
+            android:name=".library.src.com.taig.pmc.Pagesactivity"
+            android:label="@string/title_activity_pagesactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+            >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Viewprofileactivity"
+            android:label="@string/title_activity_viewprofileactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+            >
+        </activity>
+        <activity
+            android:name=".library.src.com.taig.pmc.Tagactivity"
+            android:label="@string/title_activity_tagactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Linkactivity"
+            android:label="@string/title_activity_linkactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Smileyactivity"
+            android:label="@string/title_activity_smileyactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Locationactivity"
+            android:label="@string/title_activity_locationactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Barcodescanneractivity"
+            android:label="@string/title_activity_barcodescanneractivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Aboutmeactivity"
+            android:label="@string/title_activity_aboutmeactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Detailsactivity"
+            android:label="@string/title_activity_detailsactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Exercisediarydetails"
+            android:label="@string/title_activity_exercisediarydetails"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Weightmanagementdetails"
+            android:label="@string/title_activity_weightmanagementdetails"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Photoopenactivity"
+            android:label="@string/title_activity_photoopenactivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Photosinneractivity"
+            android:label="@string/title_activity_photosinneractivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Videoopenactivity"
+            android:label="@string/title_activity_videoopenactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Videoshowing"
+            android:label="@string/title_activity_videoshowing"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".fragmentsformainscreen.Vimeoactivity"
+            android:label="@string/title_activity_vimeoactivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" >
+        </activity>
+        <activity android:name=".Termsandpolicy" >
+        </activity>
+        <activity android:name=".Spottersactivity" >
+        </activity>
+        <activity android:name=".Spottingactivity" >
+        </activity>
+    </application>
+
+</manifest>

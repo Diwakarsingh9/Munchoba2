@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spinno.com.munchoba.fragmentsformainscreen.Barcodescanneractivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Information"
+        android:id="@+id/button"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/signinbg"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView android:text="INFO" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:textColor="#000"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+include ':app', ':PagerSlidingtabStrplibrary', ':circularimageview', ':menudrawer', ':menudrawer-samples', ':cropper', ':ParallaxScroll', ':zxing-android-embedded',':library'
